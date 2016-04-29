@@ -152,6 +152,23 @@
       <Name>Microsoft Player Framework</Name>
     </SDKReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="SM.Media">
+      <HintPath>..\Libs\Debug\SM.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="SM.Media.Builder">
+      <HintPath>..\Libs\Debug\SM.Media.Builder.dll</HintPath>
+    </Reference>
+    <Reference Include="SM.Media.MediaPlayer.WP8">
+      <HintPath>..\Libs\Debug\SM.Media.MediaPlayer.WP8.dll</HintPath>
+    </Reference>
+    <Reference Include="SM.Media.Platform.WP8">
+      <HintPath>..\Libs\Debug\WP8\SM.Media.Platform.WP8.dll</HintPath>
+    </Reference>
+    <Reference Include="SM.Media.Web.HttpClientReader">
+      <HintPath>..\Libs\Debug\SM.Media.Web.HttpClientReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
